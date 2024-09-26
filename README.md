@@ -1,4 +1,4 @@
-# qurbanku-app
+# bun, hono, vite Fullstack Boilerplate
 
 To install dependencies:
 
