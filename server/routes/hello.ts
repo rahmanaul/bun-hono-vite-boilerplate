@@ -1,7 +1,7 @@
 import { Hono } from "hono";
 
 export const helloRoute = new Hono()
-.get('/hello', c => {
+.get('/', c => {
     try {
         return c.json({ message: 'Hello from server !' }, 200)
     } catch (error) {
